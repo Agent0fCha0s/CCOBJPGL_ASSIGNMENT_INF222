@@ -1,0 +1,22 @@
+public class App {
+
+
+    static boolean IwillBehave = true;
+    static boolean IwillGraduate = true;
+ 
+    
+    public static void main(String[] args) throws Exception {
+
+        //pre condition
+        assert  IwillBehave == true : "Mabait ako pramis";
+        //method
+        college();
+        //post condition
+        assert  IwillGraduate == true : "Chilling pero nakaangat";
+
+    }
+    static void college(){
+        IwillGraduate = false;
+        System.out.println("congrats");
+    }
+}
