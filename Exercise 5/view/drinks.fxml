@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="760.0" style="-fx-background-color: #482121;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Drinkscontroller">
+   <children>
+      <Pane layoutX="20.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #47A992; -fx-background-radius: 100;">
+         <cursor>
+            <Cursor fx:constant="S_RESIZE" />
+         </cursor>
+         <children>
+            <ImageView fitHeight="118.0" fitWidth="170.0" layoutX="26.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/esprezzo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="btn1" layoutX="94.0" layoutY="231.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #CBB279;" text="Esprezzo" />
+      <Pane layoutX="270.0" layoutY="20.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #47A992; -fx-background-radius: 100;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="24.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Mogu.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="btn2" layoutX="349.0" layoutY="244.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #F8E8EE;" text="Mogu" />
+      <Pane layoutX="25.0" layoutY="281.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #47A992; -fx-background-radius: 100;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Water.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="btn3" layoutX="577.0" layoutY="244.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #79E0EE;" text="Paloma" />
+      <Pane layoutX="502.0" layoutY="282.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #47A992; -fx-background-radius: 100;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="82.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/WHiskey.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="btn4" layoutX="94.0" layoutY="506.0" mnemonicParsing="false" onAction="#showInfo" text="Water" />
+      <Pane layoutX="503.0" layoutY="20.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #47A992; -fx-background-radius: 100;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="26.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Pepsi.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="btn5" layoutX="579.0" layoutY="506.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: #A0D8B3;" text="Whiskey" />
+      <ImageView fitHeight="167.0" fitWidth="236.0" layoutX="255.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/leomeme.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
