@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="594.0" prefWidth="419.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="69.0" fitWidth="195.0" layoutX="112.0" layoutY="20.0">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="132.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to IKEA Philippines!" />
+      <Text layoutX="29.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is the summary of your order:" wrappingWidth="181.0" />
+      <Text layoutX="29.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRODUCT NAME " wrappingWidth="96.13671875" />
+      <Text layoutX="167.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICE" wrappingWidth="32.13671875" />
+      <Text layoutX="231.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY." wrappingWidth="32.13671875" />
+      <Text layoutX="312.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AMOUNT" wrappingWidth="53.13671875" />
+      <Line endX="169.0" layoutX="196.0" layoutY="186.0" startX="-167.0" />
+      <Text layoutX="29.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*******************************************************************" wrappingWidth="337.0" />
+      <Line endX="169.0" layoutX="196.0" layoutY="193.0" startX="-167.0" />
+      <Label fx:id="name1" layoutX="63.0" layoutY="218.0" text="Label" />
+      <Label fx:id="price1" layoutX="169.0" layoutY="217.0" text="Label" />
+      <Label fx:id="qty1" layoutX="233.0" layoutY="216.0" text="Label" />
+      <Label fx:id="amount1" layoutX="325.0" layoutY="218.0" text="Label" />
+      <Label fx:id="name2" layoutX="63.0" layoutY="273.0" text="Label" />
+      <Label fx:id="name3" layoutX="63.0" layoutY="331.0" text="Label" />
+      <Label fx:id="price2" layoutX="169.0" layoutY="272.0" text="Label" />
+      <Label fx:id="price3" layoutX="169.0" layoutY="330.0" text="Label" />
+      <Label fx:id="qty2" layoutX="233.0" layoutY="271.0" text="Label" />
+      <Label fx:id="amount2" layoutX="325.0" layoutY="273.0" text="Label" />
+      <Label fx:id="qty3" layoutX="233.0" layoutY="329.0" text="Label" />
+      <Label fx:id="amount3" layoutX="325.0" layoutY="331.0" text="Label" />
+      <Line endX="-16.0" endY="118.0" layoutX="152.0" layoutY="253.0" startX="-16.0" startY="-59.5" />
+      <Line endX="-16.0" endY="118.0" layoutX="234.0" layoutY="253.0" startX="-16.0" startY="-59.5" />
+      <Line endX="-16.0" endY="118.0" layoutX="303.0" layoutY="253.0" startX="-16.0" startY="-59.5" />
+   </children>
+</AnchorPane>
